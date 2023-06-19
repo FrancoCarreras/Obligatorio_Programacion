@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/css/index.css" rel="stylesheet" />
+    <title>Inicio</title>
+</head>
+<body>
+    <div class="container">
+        <div class="text-center">
+            <p>
+                <strong>
+                    SISTEMA DE VENTAS
+                </strong>
+            </p>
+            <hr>
+            <a class="btn btn-primary btn-xl" asp-controller="Home" asp-action="Privacy">PRODUCTOS</a>
+            <a class="btn btn-primary btn-xl" asp-controller="Login" asp-action="IndexLogin">INGRESAR</a>
+        </div>
+    </div>
+
+</body>
+</html>

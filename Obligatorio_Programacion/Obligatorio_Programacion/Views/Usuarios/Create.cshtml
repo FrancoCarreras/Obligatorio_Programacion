@@ -1,0 +1,64 @@
+﻿@model Obligatorio_Programacion.Models.Usuario;
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+<link href="~/css/register.css" rel="stylesheet" />
+
+<div class="container">
+	<div class="card bg-light">
+		<article class="card-body mx-auto" style="max-width: 400px;">
+
+			<form asp-action="Create">
+				<div asp-validation-summary="ModelOnly"></div>
+				<div class="form-group input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text"> <i class="fa fa-user"></i> </span>
+					</div>
+					<input asp-for="Nombre" class="form-control" placeholder="Nombre" type="text">
+				</div>
+				<div class="form-group input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text"> <i class="fa fa-user"></i> </span>
+					</div>
+					<input class="form-control" asp-for="Apellido" placeholder="Apellido" type="text">
+				</div>
+				<div class="form-group input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+					</div>
+					<input class="form-control" asp-for="Email" placeholder="Correo" type="email">
+				</div> <!-- form-group// -->
+				<div class="form-group input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+					</div>
+					<input class="form-control" asp-for="Password" placeholder="Contraseña" type="password">
+				</div> <!-- form-group// -->
+				<div class="form-group input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+					</div>
+					<input class="form-control" placeholder="Repetir contraseña" type="password">
+				</div> <!-- form-group// -->
+				<div class="form-group input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text"> <i class="fa fa-users"></i> </span>
+					</div>
+					<select class="form-select" asp-for="IdRol" asp-items="ViewBag.IdRol">
+						<option selected disabled>Seleccionar Rol</option>
+					</select>
+				</div> <!-- form-group// -->
+				<div class="form-group">
+					<button type="submit" value="Create" class="btn btn-primary btn-block"> Crear cuenta</button>
+				</div> <!-- form-group// -->
+				<p class="text-center">Tienes una cuenta?<a asp-controller="Login" asp-action="IndexLogin"> Iniciar sesión</a> </p>
+			</form>
+		</article>
+	</div> <!-- card.// -->
+</div>
+
+
