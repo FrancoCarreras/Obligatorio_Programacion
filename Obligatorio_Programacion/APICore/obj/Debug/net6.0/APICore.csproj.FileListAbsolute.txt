@@ -1,0 +1,12 @@
+C:\Users\Franco Carreras\Desktop\API MVC\Obligatorio_Programacion\APICore\bin\Debug\net6.0\APICore.deps.json
+C:\Users\Franco Carreras\Desktop\API MVC\Obligatorio_Programacion\APICore\bin\Debug\net6.0\APICore.dll
+C:\Users\Franco Carreras\Desktop\API MVC\Obligatorio_Programacion\APICore\bin\Debug\net6.0\APICore.pdb
+C:\Users\Franco Carreras\Desktop\API MVC\Obligatorio_Programacion\APICore\obj\Debug\net6.0\APICore.csproj.AssemblyReference.cache
+C:\Users\Franco Carreras\Desktop\API MVC\Obligatorio_Programacion\APICore\obj\Debug\net6.0\APICore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Franco Carreras\Desktop\API MVC\Obligatorio_Programacion\APICore\obj\Debug\net6.0\APICore.AssemblyInfoInputs.cache
+C:\Users\Franco Carreras\Desktop\API MVC\Obligatorio_Programacion\APICore\obj\Debug\net6.0\APICore.AssemblyInfo.cs
+C:\Users\Franco Carreras\Desktop\API MVC\Obligatorio_Programacion\APICore\obj\Debug\net6.0\APICore.csproj.CoreCompileInputs.cache
+C:\Users\Franco Carreras\Desktop\API MVC\Obligatorio_Programacion\APICore\obj\Debug\net6.0\APICore.dll
+C:\Users\Franco Carreras\Desktop\API MVC\Obligatorio_Programacion\APICore\obj\Debug\net6.0\refint\APICore.dll
+C:\Users\Franco Carreras\Desktop\API MVC\Obligatorio_Programacion\APICore\obj\Debug\net6.0\APICore.pdb
+C:\Users\Franco Carreras\Desktop\API MVC\Obligatorio_Programacion\APICore\obj\Debug\net6.0\ref\APICore.dll

@@ -1,0 +1,12 @@
+C:\Users\Franco Carreras\Desktop\API MVC\Obligatorio_Programacion\APICotizacion\bin\Debug\net6.0\APICotizacion.deps.json
+C:\Users\Franco Carreras\Desktop\API MVC\Obligatorio_Programacion\APICotizacion\bin\Debug\net6.0\APICotizacion.dll
+C:\Users\Franco Carreras\Desktop\API MVC\Obligatorio_Programacion\APICotizacion\bin\Debug\net6.0\APICotizacion.pdb
+C:\Users\Franco Carreras\Desktop\API MVC\Obligatorio_Programacion\APICotizacion\obj\Debug\net6.0\APICotizacion.csproj.AssemblyReference.cache
+C:\Users\Franco Carreras\Desktop\API MVC\Obligatorio_Programacion\APICotizacion\obj\Debug\net6.0\APICotizacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Franco Carreras\Desktop\API MVC\Obligatorio_Programacion\APICotizacion\obj\Debug\net6.0\APICotizacion.AssemblyInfoInputs.cache
+C:\Users\Franco Carreras\Desktop\API MVC\Obligatorio_Programacion\APICotizacion\obj\Debug\net6.0\APICotizacion.AssemblyInfo.cs
+C:\Users\Franco Carreras\Desktop\API MVC\Obligatorio_Programacion\APICotizacion\obj\Debug\net6.0\APICotizacion.csproj.CoreCompileInputs.cache
+C:\Users\Franco Carreras\Desktop\API MVC\Obligatorio_Programacion\APICotizacion\obj\Debug\net6.0\APICotizacion.dll
+C:\Users\Franco Carreras\Desktop\API MVC\Obligatorio_Programacion\APICotizacion\obj\Debug\net6.0\refint\APICotizacion.dll
+C:\Users\Franco Carreras\Desktop\API MVC\Obligatorio_Programacion\APICotizacion\obj\Debug\net6.0\APICotizacion.pdb
+C:\Users\Franco Carreras\Desktop\API MVC\Obligatorio_Programacion\APICotizacion\obj\Debug\net6.0\ref\APICotizacion.dll

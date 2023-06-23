@@ -1,0 +1,59 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+@model double
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cuadrado con Bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#formulario').submit(function (event) {
+                event.preventDefault();
+                var numero = $('#numero').val();
+
+                if (numero !== '') {
+                    var resultado = numero * parseFloat('@Model');
+                    $('#numeroMostrado').text(resultado);
+                }
+            });
+        });
+    </script>
+
+
+    <style>
+        .cuadrado {
+            background-color: #f2f2f2;
+            width: 500px;
+            height: 500px;
+            margin: 0 auto;
+            margin-top: 100px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center">
+        <div class="cuadrado">
+            <form id="formulario">
+                <div class="form-group">
+                    <span class="text-center" style="font-size: xx-large; font-weight: bold;">CONVERSIÓN</span>
+                    <input type="number" class="form-control" id="numero" placeholder="Ingresa un número" name="numero">
+
+                </div>
+                <button type="submit" class="btn btn-primary btn-block mt-2">Convertir</button>
+                <span class="text-center" style="font-size: xx-large; font-weight: bold;">Resultado: <span id="numeroMostrado"></span></span>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
